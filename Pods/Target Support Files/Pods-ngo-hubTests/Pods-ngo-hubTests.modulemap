@@ -1,0 +1,6 @@
+framework module Pods_ngo_hubTests {
+  umbrella header "Pods-ngo-hubTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

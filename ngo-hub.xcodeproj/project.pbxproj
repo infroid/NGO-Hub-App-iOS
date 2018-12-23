@@ -1,0 +1,1170 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C09F082CCFDF39131D327C7 /* Pods_ngo_hub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F1A5BA085894697F68E97E /* Pods_ngo_hub.framework */; };
+		5548D8BB2142834E00416200 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5548D8B92142834D00416200 /* SWRevealViewController.m */; };
+		5548D8BD2142840400416200 /* RevealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548D8BC2142840400416200 /* RevealViewController.swift */; };
+		5548D8BF2142849A00416200 /* menuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548D8BE2142849A00416200 /* menuVC.swift */; };
+		5548D8C7214284A500416200 /* cell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548D8C1214284A500416200 /* cell1.swift */; };
+		5548D8C9214284A500416200 /* cell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5548D8C3214284A500416200 /* cell1.xib */; };
+		5548D8CA214284A500416200 /* cell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548D8C4214284A500416200 /* cell2.swift */; };
+		5548D8CB214284A500416200 /* cell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5548D8C5214284A500416200 /* cell2.xib */; };
+		5548D8D121428DC600416200 /* headerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548D8CF21428DC600416200 /* headerCell.swift */; };
+		5548D8D221428DC600416200 /* headerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5548D8D021428DC600416200 /* headerCell.xib */; };
+		5548D8D42142918600416200 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5548D8D32142918500416200 /* menu.png */; };
+		554BD4922155A96600ACF4A9 /* DesignabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554BD48D2155A96500ACF4A9 /* DesignabelView.swift */; };
+		554BD4932155A96600ACF4A9 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554BD48E2155A96500ACF4A9 /* DesignableTextView.swift */; };
+		554BD4942155A96600ACF4A9 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554BD48F2155A96600ACF4A9 /* DesignableButton.swift */; };
+		554BD4952155A96600ACF4A9 /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554BD4902155A96600ACF4A9 /* customButton.swift */; };
+		554BD4962155A96600ACF4A9 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554BD4912155A96600ACF4A9 /* DesignableImageView.swift */; };
+		554BD49B2155B53000ACF4A9 /* splashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554BD49A2155B53000ACF4A9 /* splashVC.swift */; };
+		5557725B215F9AD9000A0B3F /* firstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557725A215F9AD9000A0B3F /* firstVC.swift */; };
+		5557725E215F9CF0000A0B3F /* fb_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5557725C215F9CEF000A0B3F /* fb_icon.png */; };
+		5557725F215F9CF0000A0B3F /* google-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5557725D215F9CF0000A0B3F /* google-logo.png */; };
+		55577261215FA33D000A0B3F /* report.png in Resources */ = {isa = PBXBuildFile; fileRef = 55577260215FA33D000A0B3F /* report.png */; };
+		55577263215FA3C0000A0B3F /* docs-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55577262215FA3C0000A0B3F /* docs-icon.png */; };
+		55577265215FA436000A0B3F /* secondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55577264215FA436000A0B3F /* secondVC.swift */; };
+		55577267215FA470000A0B3F /* sam.png in Resources */ = {isa = PBXBuildFile; fileRef = 55577266215FA46F000A0B3F /* sam.png */; };
+		55577269215FA511000A0B3F /* introVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55577268215FA511000A0B3F /* introVC.swift */; };
+		5557726B215FA52D000A0B3F /* thirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557726A215FA52D000A0B3F /* thirdVC.swift */; };
+		5557726D215FB202000A0B3F /* deforestation.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5557726C215FB202000A0B3F /* deforestation.jpeg */; };
+		5558C2F42142805C0099A252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558C2F32142805C0099A252 /* AppDelegate.swift */; };
+		5558C2F62142805C0099A252 /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558C2F52142805C0099A252 /* homeVC.swift */; };
+		5558C2F92142805C0099A252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5558C2F72142805C0099A252 /* Main.storyboard */; };
+		5558C2FC2142805C0099A252 /* ngo_hub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5558C2FA2142805C0099A252 /* ngo_hub.xcdatamodeld */; };
+		5558C2FE2142805D0099A252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5558C2FD2142805D0099A252 /* Assets.xcassets */; };
+		5558C3012142805D0099A252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5558C2FF2142805D0099A252 /* LaunchScreen.storyboard */; };
+		5558C30C2142805D0099A252 /* ngo_hubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558C30B2142805D0099A252 /* ngo_hubTests.swift */; };
+		5558C3172142805D0099A252 /* ngo_hubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558C3162142805D0099A252 /* ngo_hubUITests.swift */; };
+		556ADD032157C41400F31A00 /* recentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556ADD012157C41400F31A00 /* recentCell.swift */; };
+		556ADD042157C41400F31A00 /* recentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 556ADD022157C41400F31A00 /* recentCell.xib */; };
+		5591CCC22156A03500AECD70 /* google_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5591CCBE2156A03400AECD70 /* google_btn.png */; };
+		5591CCC32156A03500AECD70 /* login_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 5591CCBF2156A03400AECD70 /* login_back.png */; };
+		5591CCC42156A03500AECD70 /* fb_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5591CCC02156A03400AECD70 /* fb_btn.png */; };
+		5591CCC52156A03500AECD70 /* ngo-hub_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5591CCC12156A03400AECD70 /* ngo-hub_logo.png */; };
+		5591CCCC2156A98400AECD70 /* dropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 5591CCCB2156A98300AECD70 /* dropdown.png */; };
+		5591CCCE2156ADA600AECD70 /* selectTagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5591CCCD2156ADA600AECD70 /* selectTagTableViewCell.swift */; };
+		5591CCD12156AED000AECD70 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 5591CCD02156AED000AECD70 /* man.png */; };
+		5591CCD52156B0FF00AECD70 /* recentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5591CCD42156B0FF00AECD70 /* recentVC.swift */; };
+		5597380321717B5D00B56780 /* postImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5597380121717B5D00B56780 /* postImageCell.swift */; };
+		5597380421717B5D00B56780 /* postImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5597380221717B5D00B56780 /* postImageCell.xib */; };
+		55B7B6AB2152922800C97FBA /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B7B6AA2152922800C97FBA /* loginVC.swift */; };
+		55CB5147216FDE7F007D3936 /* singlePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB5146216FDE7F007D3936 /* singlePostVC.swift */; };
+		55CB514A216FDEE9007D3936 /* singlePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB5148216FDEE9007D3936 /* singlePostCell.swift */; };
+		55CB514B216FDEE9007D3936 /* singlePostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55CB5149216FDEE9007D3936 /* singlePostCell.xib */; };
+		55CB514E216FE154007D3936 /* recent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB514D216FE154007D3936 /* recent.swift */; };
+		55D440B021529653005287E2 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55D440AF21529652005287E2 /* credentials.plist */; };
+		55E7D5E5217AE00C00F386C0 /* ngo.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E7D5E4217AE00C00F386C0 /* ngo.png */; };
+		55E7D5E7217AF17E00F386C0 /* report_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E7D5E6217AF17E00F386C0 /* report_icon.png */; };
+		55E7D5E9217AF18C00F386C0 /* exit.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E7D5E8217AF18B00F386C0 /* exit.png */; };
+		55E7D5EB217AF19B00F386C0 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E7D5EA217AF19B00F386C0 /* home.png */; };
+		55E7D5EE217AF54D00F386C0 /* recentCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7D5EC217AF54D00F386C0 /* recentCell1.swift */; };
+		55E7D5EF217AF54D00F386C0 /* recentCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55E7D5ED217AF54D00F386C0 /* recentCell1.xib */; };
+		55E7D5F1217AFB8900F386C0 /* singleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E7D5F0217AFB8900F386C0 /* singleVC.swift */; };
+		7B40D47D6B95D4CF8A78346A /* Pods_ngo_hubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C47695501645D28EDC769A8 /* Pods_ngo_hubUITests.framework */; };
+		8447082421762027008499BA /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8447082321762027008499BA /* back.png */; };
+		D5E0791CC17215C08FF913E7 /* Pods_ngo_hubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32428EE56BE4CEE2D56DAA11 /* Pods_ngo_hubTests.framework */; };
+		DE3A41BE21B3F69C00C13DEB /* imageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3A41BC21B3F69C00C13DEB /* imageCell.swift */; };
+		DE3A41BF21B3F69C00C13DEB /* imageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3A41BD21B3F69C00C13DEB /* imageCell.xib */; };
+		DE3A41C221B3F6F500C13DEB /* selectImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3A41C021B3F6F500C13DEB /* selectImageCell.swift */; };
+		DE3A41C321B3F6F500C13DEB /* selectImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3A41C121B3F6F500C13DEB /* selectImageCell.xib */; };
+		DEBC05B12181F883002B9D59 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEBC05B02181F883002B9D59 /* images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5558C3082142805D0099A252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5558C2E82142805B0099A252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5558C2EF2142805B0099A252;
+			remoteInfo = "ngo-hub";
+		};
+		5558C3132142805D0099A252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5558C2E82142805B0099A252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5558C2EF2142805B0099A252;
+			remoteInfo = "ngo-hub";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C47695501645D28EDC769A8 /* Pods_ngo_hubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ngo_hubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6B7C3A2D9991C42CCC476F /* Pods-ngo-hubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngo-hubUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ngo-hubUITests/Pods-ngo-hubUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		32428EE56BE4CEE2D56DAA11 /* Pods_ngo_hubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ngo_hubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		349670790B803E02D840165D /* Pods-ngo-hubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngo-hubTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ngo-hubTests/Pods-ngo-hubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AE093BEB79147B254EFD16E /* Pods-ngo-hub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngo-hub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ngo-hub/Pods-ngo-hub.debug.xcconfig"; sourceTree = "<group>"; };
+		5548D8B92142834D00416200 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		5548D8BA2142834D00416200 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		5548D8BC2142840400416200 /* RevealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevealViewController.swift; sourceTree = "<group>"; };
+		5548D8BE2142849A00416200 /* menuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuVC.swift; sourceTree = "<group>"; };
+		5548D8C1214284A500416200 /* cell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cell1.swift; sourceTree = "<group>"; };
+		5548D8C3214284A500416200 /* cell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cell1.xib; sourceTree = "<group>"; };
+		5548D8C4214284A500416200 /* cell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cell2.swift; sourceTree = "<group>"; };
+		5548D8C5214284A500416200 /* cell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cell2.xib; sourceTree = "<group>"; };
+		5548D8CE2142854C00416200 /* ngo-hub-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ngo-hub-Bridging-Header.h"; path = "ngo-hub/SideMenu/ngo-hub-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		5548D8CF21428DC600416200 /* headerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = headerCell.swift; sourceTree = "<group>"; };
+		5548D8D021428DC600416200 /* headerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = headerCell.xib; sourceTree = "<group>"; };
+		5548D8D32142918500416200 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		554BD48D2155A96500ACF4A9 /* DesignabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignabelView.swift; sourceTree = "<group>"; };
+		554BD48E2155A96500ACF4A9 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		554BD48F2155A96600ACF4A9 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		554BD4902155A96600ACF4A9 /* customButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
+		554BD4912155A96600ACF4A9 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		554BD49A2155B53000ACF4A9 /* splashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashVC.swift; sourceTree = "<group>"; };
+		5557725A215F9AD9000A0B3F /* firstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstVC.swift; sourceTree = "<group>"; };
+		5557725C215F9CEF000A0B3F /* fb_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_icon.png; sourceTree = "<group>"; };
+		5557725D215F9CF0000A0B3F /* google-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-logo.png"; sourceTree = "<group>"; };
+		55577260215FA33D000A0B3F /* report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = report.png; sourceTree = "<group>"; };
+		55577262215FA3C0000A0B3F /* docs-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "docs-icon.png"; sourceTree = "<group>"; };
+		55577264215FA436000A0B3F /* secondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondVC.swift; sourceTree = "<group>"; };
+		55577266215FA46F000A0B3F /* sam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sam.png; sourceTree = "<group>"; };
+		55577268215FA511000A0B3F /* introVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introVC.swift; sourceTree = "<group>"; };
+		5557726A215FA52D000A0B3F /* thirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdVC.swift; sourceTree = "<group>"; };
+		5557726C215FB202000A0B3F /* deforestation.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deforestation.jpeg; sourceTree = "<group>"; };
+		5558C2F02142805C0099A252 /* ngo-hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ngo-hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5558C2F32142805C0099A252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5558C2F52142805C0099A252 /* homeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
+		5558C2F82142805C0099A252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5558C2FB2142805C0099A252 /* ngo_hub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ngo_hub.xcdatamodel; sourceTree = "<group>"; };
+		5558C2FD2142805D0099A252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5558C3002142805D0099A252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5558C3022142805D0099A252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5558C3072142805D0099A252 /* ngo-hubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ngo-hubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5558C30B2142805D0099A252 /* ngo_hubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ngo_hubTests.swift; sourceTree = "<group>"; };
+		5558C30D2142805D0099A252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5558C3122142805D0099A252 /* ngo-hubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ngo-hubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5558C3162142805D0099A252 /* ngo_hubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ngo_hubUITests.swift; sourceTree = "<group>"; };
+		5558C3182142805D0099A252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556ADD012157C41400F31A00 /* recentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recentCell.swift; sourceTree = "<group>"; };
+		556ADD022157C41400F31A00 /* recentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = recentCell.xib; sourceTree = "<group>"; };
+		5591CCBE2156A03400AECD70 /* google_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google_btn.png; sourceTree = "<group>"; };
+		5591CCBF2156A03400AECD70 /* login_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_back.png; sourceTree = "<group>"; };
+		5591CCC02156A03400AECD70 /* fb_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_btn.png; sourceTree = "<group>"; };
+		5591CCC12156A03400AECD70 /* ngo-hub_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ngo-hub_logo.png"; sourceTree = "<group>"; };
+		5591CCCB2156A98300AECD70 /* dropdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropdown.png; sourceTree = "<group>"; };
+		5591CCCD2156ADA600AECD70 /* selectTagTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectTagTableViewCell.swift; sourceTree = "<group>"; };
+		5591CCD02156AED000AECD70 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		5591CCD42156B0FF00AECD70 /* recentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recentVC.swift; sourceTree = "<group>"; };
+		5597380121717B5D00B56780 /* postImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postImageCell.swift; sourceTree = "<group>"; };
+		5597380221717B5D00B56780 /* postImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = postImageCell.xib; sourceTree = "<group>"; };
+		55B7B6AA2152922800C97FBA /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		55CB5146216FDE7F007D3936 /* singlePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singlePostVC.swift; sourceTree = "<group>"; };
+		55CB5148216FDEE9007D3936 /* singlePostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singlePostCell.swift; sourceTree = "<group>"; };
+		55CB5149216FDEE9007D3936 /* singlePostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = singlePostCell.xib; sourceTree = "<group>"; };
+		55CB514D216FE154007D3936 /* recent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recent.swift; sourceTree = "<group>"; };
+		55D440AF21529652005287E2 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		55E7D5E4217AE00C00F386C0 /* ngo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ngo.png; sourceTree = "<group>"; };
+		55E7D5E6217AF17E00F386C0 /* report_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = report_icon.png; sourceTree = "<group>"; };
+		55E7D5E8217AF18B00F386C0 /* exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit.png; sourceTree = "<group>"; };
+		55E7D5EA217AF19B00F386C0 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		55E7D5EC217AF54D00F386C0 /* recentCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recentCell1.swift; sourceTree = "<group>"; };
+		55E7D5ED217AF54D00F386C0 /* recentCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = recentCell1.xib; sourceTree = "<group>"; };
+		55E7D5F0217AFB8900F386C0 /* singleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleVC.swift; sourceTree = "<group>"; };
+		8447082321762027008499BA /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		A023F9C84EDE0BB1F83F03A5 /* Pods-ngo-hub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngo-hub.release.xcconfig"; path = "Pods/Target Support Files/Pods-ngo-hub/Pods-ngo-hub.release.xcconfig"; sourceTree = "<group>"; };
+		C7F1A5BA085894697F68E97E /* Pods_ngo_hub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ngo_hub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3A41BC21B3F69C00C13DEB /* imageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCell.swift; sourceTree = "<group>"; };
+		DE3A41BD21B3F69C00C13DEB /* imageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = imageCell.xib; sourceTree = "<group>"; };
+		DE3A41C021B3F6F500C13DEB /* selectImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectImageCell.swift; sourceTree = "<group>"; };
+		DE3A41C121B3F6F500C13DEB /* selectImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = selectImageCell.xib; sourceTree = "<group>"; };
+		DEBC05B02181F883002B9D59 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		F6D301953C7C0C4E039B8418 /* Pods-ngo-hubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngo-hubUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ngo-hubUITests/Pods-ngo-hubUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F8B02BD0501FBE3819BD719B /* Pods-ngo-hubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngo-hubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ngo-hubTests/Pods-ngo-hubTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5558C2ED2142805B0099A252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C09F082CCFDF39131D327C7 /* Pods_ngo_hub.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5558C3042142805D0099A252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E0791CC17215C08FF913E7 /* Pods_ngo_hubTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5558C30F2142805D0099A252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B40D47D6B95D4CF8A78346A /* Pods_ngo_hubUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115E5CDDC0514CFD68467354 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AE093BEB79147B254EFD16E /* Pods-ngo-hub.debug.xcconfig */,
+				A023F9C84EDE0BB1F83F03A5 /* Pods-ngo-hub.release.xcconfig */,
+				349670790B803E02D840165D /* Pods-ngo-hubTests.debug.xcconfig */,
+				F8B02BD0501FBE3819BD719B /* Pods-ngo-hubTests.release.xcconfig */,
+				2B6B7C3A2D9991C42CCC476F /* Pods-ngo-hubUITests.debug.xcconfig */,
+				F6D301953C7C0C4E039B8418 /* Pods-ngo-hubUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5548D8B72142832700416200 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5548D8CD214284AB00416200 /* controller */,
+				5548D8C0214284A500416200 /* View */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		5548D8C0214284A500416200 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5548D8CF21428DC600416200 /* headerCell.swift */,
+				5548D8D021428DC600416200 /* headerCell.xib */,
+				5548D8C1214284A500416200 /* cell1.swift */,
+				5548D8C3214284A500416200 /* cell1.xib */,
+				5548D8C4214284A500416200 /* cell2.swift */,
+				5548D8C5214284A500416200 /* cell2.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5548D8CD214284AB00416200 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5548D8CE2142854C00416200 /* ngo-hub-Bridging-Header.h */,
+				5548D8BE2142849A00416200 /* menuVC.swift */,
+				5548D8BC2142840400416200 /* RevealViewController.swift */,
+				5548D8BA2142834D00416200 /* SWRevealViewController.h */,
+				5548D8B92142834D00416200 /* SWRevealViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		554BD4972155A96A00ACF4A9 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5591CCC62156A08000AECD70 /* assets */,
+				554BD4902155A96600ACF4A9 /* customButton.swift */,
+				554BD48D2155A96500ACF4A9 /* DesignabelView.swift */,
+				554BD48F2155A96600ACF4A9 /* DesignableButton.swift */,
+				554BD4912155A96600ACF4A9 /* DesignableImageView.swift */,
+				554BD48E2155A96500ACF4A9 /* DesignableTextView.swift */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		554BD4982155B50400ACF4A9 /* splashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				554BD4992155B51500ACF4A9 /* controller */,
+			);
+			path = splashScreen;
+			sourceTree = "<group>";
+		};
+		554BD4992155B51500ACF4A9 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				554BD49A2155B53000ACF4A9 /* splashVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		55577258215F9AAE000A0B3F /* introSlider */ = {
+			isa = PBXGroup;
+			children = (
+				55577259215F9ABB000A0B3F /* controller */,
+			);
+			path = introSlider;
+			sourceTree = "<group>";
+		};
+		55577259215F9ABB000A0B3F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5557725A215F9AD9000A0B3F /* firstVC.swift */,
+				55577264215FA436000A0B3F /* secondVC.swift */,
+				55577268215FA511000A0B3F /* introVC.swift */,
+				5557726A215FA52D000A0B3F /* thirdVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5558C2E72142805B0099A252 = {
+			isa = PBXGroup;
+			children = (
+				5558C2F22142805C0099A252 /* ngo-hub */,
+				5558C30A2142805D0099A252 /* ngo-hubTests */,
+				5558C3152142805D0099A252 /* ngo-hubUITests */,
+				5558C2F12142805C0099A252 /* Products */,
+				115E5CDDC0514CFD68467354 /* Pods */,
+				BEA1E698DCB75B57BABC65DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5558C2F12142805C0099A252 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5558C2F02142805C0099A252 /* ngo-hub.app */,
+				5558C3072142805D0099A252 /* ngo-hubTests.xctest */,
+				5558C3122142805D0099A252 /* ngo-hubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5558C2F22142805C0099A252 /* ngo-hub */ = {
+			isa = PBXGroup;
+			children = (
+				55CB5143216FC87F007D3936 /* SinglePost */,
+				55577258215F9AAE000A0B3F /* introSlider */,
+				5591CCD22156B01800AECD70 /* recentActivities */,
+				5591CCC72156A38200AECD70 /* home */,
+				554BD4982155B50400ACF4A9 /* splashScreen */,
+				554BD4972155A96A00ACF4A9 /* utilities */,
+				55D440AF21529652005287E2 /* credentials.plist */,
+				55B7B6A5215291E800C97FBA /* login */,
+				5548D8B72142832700416200 /* SideMenu */,
+				5558C2F32142805C0099A252 /* AppDelegate.swift */,
+				5558C2F72142805C0099A252 /* Main.storyboard */,
+				DEBC05B02181F883002B9D59 /* images.xcassets */,
+				5558C2FD2142805D0099A252 /* Assets.xcassets */,
+				5558C2FF2142805D0099A252 /* LaunchScreen.storyboard */,
+				5558C3022142805D0099A252 /* Info.plist */,
+				5558C2FA2142805C0099A252 /* ngo_hub.xcdatamodeld */,
+			);
+			path = "ngo-hub";
+			sourceTree = "<group>";
+		};
+		5558C30A2142805D0099A252 /* ngo-hubTests */ = {
+			isa = PBXGroup;
+			children = (
+				5558C30B2142805D0099A252 /* ngo_hubTests.swift */,
+				5558C30D2142805D0099A252 /* Info.plist */,
+			);
+			path = "ngo-hubTests";
+			sourceTree = "<group>";
+		};
+		5558C3152142805D0099A252 /* ngo-hubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5558C3162142805D0099A252 /* ngo_hubUITests.swift */,
+				5558C3182142805D0099A252 /* Info.plist */,
+			);
+			path = "ngo-hubUITests";
+			sourceTree = "<group>";
+		};
+		556ADD002157C3FF00F31A00 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				556ADD012157C41400F31A00 /* recentCell.swift */,
+				556ADD022157C41400F31A00 /* recentCell.xib */,
+				55E7D5EC217AF54D00F386C0 /* recentCell1.swift */,
+				55E7D5ED217AF54D00F386C0 /* recentCell1.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5591CCC62156A08000AECD70 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				55E7D5EA217AF19B00F386C0 /* home.png */,
+				55E7D5E8217AF18B00F386C0 /* exit.png */,
+				55E7D5E6217AF17E00F386C0 /* report_icon.png */,
+				55E7D5E4217AE00C00F386C0 /* ngo.png */,
+				5557726C215FB202000A0B3F /* deforestation.jpeg */,
+				5557725C215F9CEF000A0B3F /* fb_icon.png */,
+				8447082321762027008499BA /* back.png */,
+				5557725D215F9CF0000A0B3F /* google-logo.png */,
+				5548D8D32142918500416200 /* menu.png */,
+				5591CCCB2156A98300AECD70 /* dropdown.png */,
+				55577260215FA33D000A0B3F /* report.png */,
+				55577266215FA46F000A0B3F /* sam.png */,
+				5591CCD02156AED000AECD70 /* man.png */,
+				55577262215FA3C0000A0B3F /* docs-icon.png */,
+				5591CCC02156A03400AECD70 /* fb_btn.png */,
+				5591CCBE2156A03400AECD70 /* google_btn.png */,
+				5591CCBF2156A03400AECD70 /* login_back.png */,
+				5591CCC12156A03400AECD70 /* ngo-hub_logo.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		5591CCC72156A38200AECD70 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				5591CCCF2156ADA900AECD70 /* view */,
+				5591CCC82156A38A00AECD70 /* controller */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		5591CCC82156A38A00AECD70 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5558C2F52142805C0099A252 /* homeVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5591CCCF2156ADA900AECD70 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5591CCCD2156ADA600AECD70 /* selectTagTableViewCell.swift */,
+				DE3A41BC21B3F69C00C13DEB /* imageCell.swift */,
+				DE3A41BD21B3F69C00C13DEB /* imageCell.xib */,
+				DE3A41C021B3F6F500C13DEB /* selectImageCell.swift */,
+				DE3A41C121B3F6F500C13DEB /* selectImageCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5591CCD22156B01800AECD70 /* recentActivities */ = {
+			isa = PBXGroup;
+			children = (
+				55CB514C216FE13B007D3936 /* model */,
+				556ADD002157C3FF00F31A00 /* view */,
+				5591CCD32156B02900AECD70 /* controller */,
+			);
+			path = recentActivities;
+			sourceTree = "<group>";
+		};
+		5591CCD32156B02900AECD70 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5591CCD42156B0FF00AECD70 /* recentVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		55B7B6A5215291E800C97FBA /* login */ = {
+			isa = PBXGroup;
+			children = (
+				55B7B6A8215291FD00C97FBA /* controller */,
+				55B7B6A7215291F600C97FBA /* view */,
+				55B7B6A6215291F000C97FBA /* model */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		55B7B6A6215291F000C97FBA /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		55B7B6A7215291F600C97FBA /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		55B7B6A8215291FD00C97FBA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				55B7B6AA2152922800C97FBA /* loginVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		55CB5143216FC87F007D3936 /* SinglePost */ = {
+			isa = PBXGroup;
+			children = (
+				55CB5145216FC898007D3936 /* controller */,
+				55CB5144216FC892007D3936 /* view */,
+			);
+			path = SinglePost;
+			sourceTree = "<group>";
+		};
+		55CB5144216FC892007D3936 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				55CB5148216FDEE9007D3936 /* singlePostCell.swift */,
+				55CB5149216FDEE9007D3936 /* singlePostCell.xib */,
+				5597380121717B5D00B56780 /* postImageCell.swift */,
+				5597380221717B5D00B56780 /* postImageCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		55CB5145216FC898007D3936 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				55CB5146216FDE7F007D3936 /* singlePostVC.swift */,
+				55E7D5F0217AFB8900F386C0 /* singleVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		55CB514C216FE13B007D3936 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				55CB514D216FE154007D3936 /* recent.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BEA1E698DCB75B57BABC65DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7F1A5BA085894697F68E97E /* Pods_ngo_hub.framework */,
+				32428EE56BE4CEE2D56DAA11 /* Pods_ngo_hubTests.framework */,
+				0C47695501645D28EDC769A8 /* Pods_ngo_hubUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5558C2EF2142805B0099A252 /* ngo-hub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5558C31B2142805D0099A252 /* Build configuration list for PBXNativeTarget "ngo-hub" */;
+			buildPhases = (
+				9CB290449A852AB993E44091 /* [CP] Check Pods Manifest.lock */,
+				5558C2EC2142805B0099A252 /* Sources */,
+				5558C2ED2142805B0099A252 /* Frameworks */,
+				5558C2EE2142805B0099A252 /* Resources */,
+				5E3DE86330258E5DAB02A65D /* [CP] Embed Pods Frameworks */,
+				9534800A03C35B18970C74BA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ngo-hub";
+			productName = "ngo-hub";
+			productReference = 5558C2F02142805C0099A252 /* ngo-hub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5558C3062142805D0099A252 /* ngo-hubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5558C31E2142805D0099A252 /* Build configuration list for PBXNativeTarget "ngo-hubTests" */;
+			buildPhases = (
+				D918DA19B2D27AE72489277E /* [CP] Check Pods Manifest.lock */,
+				5558C3032142805D0099A252 /* Sources */,
+				5558C3042142805D0099A252 /* Frameworks */,
+				5558C3052142805D0099A252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5558C3092142805D0099A252 /* PBXTargetDependency */,
+			);
+			name = "ngo-hubTests";
+			productName = "ngo-hubTests";
+			productReference = 5558C3072142805D0099A252 /* ngo-hubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5558C3112142805D0099A252 /* ngo-hubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5558C3212142805D0099A252 /* Build configuration list for PBXNativeTarget "ngo-hubUITests" */;
+			buildPhases = (
+				08F736DB7F39557AFFA9BB9F /* [CP] Check Pods Manifest.lock */,
+				5558C30E2142805D0099A252 /* Sources */,
+				5558C30F2142805D0099A252 /* Frameworks */,
+				5558C3102142805D0099A252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5558C3142142805D0099A252 /* PBXTargetDependency */,
+			);
+			name = "ngo-hubUITests";
+			productName = "ngo-hubUITests";
+			productReference = 5558C3122142805D0099A252 /* ngo-hubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5558C2E82142805B0099A252 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = infroid;
+				TargetAttributes = {
+					5558C2EF2142805B0099A252 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+					};
+					5558C3062142805D0099A252 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5558C2EF2142805B0099A252;
+					};
+					5558C3112142805D0099A252 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5558C2EF2142805B0099A252;
+					};
+				};
+			};
+			buildConfigurationList = 5558C2EB2142805B0099A252 /* Build configuration list for PBXProject "ngo-hub" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5558C2E72142805B0099A252;
+			productRefGroup = 5558C2F12142805C0099A252 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5558C2EF2142805B0099A252 /* ngo-hub */,
+				5558C3062142805D0099A252 /* ngo-hubTests */,
+				5558C3112142805D0099A252 /* ngo-hubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5558C2EE2142805B0099A252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8447082421762027008499BA /* back.png in Resources */,
+				5591CCD12156AED000AECD70 /* man.png in Resources */,
+				55E7D5E5217AE00C00F386C0 /* ngo.png in Resources */,
+				556ADD042157C41400F31A00 /* recentCell.xib in Resources */,
+				5591CCC42156A03500AECD70 /* fb_btn.png in Resources */,
+				55577267215FA470000A0B3F /* sam.png in Resources */,
+				5548D8D221428DC600416200 /* headerCell.xib in Resources */,
+				DE3A41C321B3F6F500C13DEB /* selectImageCell.xib in Resources */,
+				5597380421717B5D00B56780 /* postImageCell.xib in Resources */,
+				5557725F215F9CF0000A0B3F /* google-logo.png in Resources */,
+				DEBC05B12181F883002B9D59 /* images.xcassets in Resources */,
+				DE3A41BF21B3F69C00C13DEB /* imageCell.xib in Resources */,
+				55D440B021529653005287E2 /* credentials.plist in Resources */,
+				55E7D5EB217AF19B00F386C0 /* home.png in Resources */,
+				5558C3012142805D0099A252 /* LaunchScreen.storyboard in Resources */,
+				5548D8CB214284A500416200 /* cell2.xib in Resources */,
+				55E7D5E7217AF17E00F386C0 /* report_icon.png in Resources */,
+				5591CCCC2156A98400AECD70 /* dropdown.png in Resources */,
+				55577263215FA3C0000A0B3F /* docs-icon.png in Resources */,
+				5591CCC32156A03500AECD70 /* login_back.png in Resources */,
+				5548D8D42142918600416200 /* menu.png in Resources */,
+				55577261215FA33D000A0B3F /* report.png in Resources */,
+				55E7D5E9217AF18C00F386C0 /* exit.png in Resources */,
+				5591CCC22156A03500AECD70 /* google_btn.png in Resources */,
+				55CB514B216FDEE9007D3936 /* singlePostCell.xib in Resources */,
+				55E7D5EF217AF54D00F386C0 /* recentCell1.xib in Resources */,
+				5558C2FE2142805D0099A252 /* Assets.xcassets in Resources */,
+				5591CCC52156A03500AECD70 /* ngo-hub_logo.png in Resources */,
+				5558C2F92142805C0099A252 /* Main.storyboard in Resources */,
+				5557725E215F9CF0000A0B3F /* fb_icon.png in Resources */,
+				5548D8C9214284A500416200 /* cell1.xib in Resources */,
+				5557726D215FB202000A0B3F /* deforestation.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5558C3052142805D0099A252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5558C3102142805D0099A252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08F736DB7F39557AFFA9BB9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ngo-hubUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E3DE86330258E5DAB02A65D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ngo-hub/Pods-ngo-hub-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ngo-hub/Pods-ngo-hub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9534800A03C35B18970C74BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ngo-hub/Pods-ngo-hub-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ngo-hub/Pods-ngo-hub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB290449A852AB993E44091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ngo-hub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D918DA19B2D27AE72489277E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ngo-hubTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5558C2EC2142805B0099A252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5558C2F62142805C0099A252 /* homeVC.swift in Sources */,
+				5591CCD52156B0FF00AECD70 /* recentVC.swift in Sources */,
+				556ADD032157C41400F31A00 /* recentCell.swift in Sources */,
+				5597380321717B5D00B56780 /* postImageCell.swift in Sources */,
+				55577265215FA436000A0B3F /* secondVC.swift in Sources */,
+				554BD4962155A96600ACF4A9 /* DesignableImageView.swift in Sources */,
+				5558C2F42142805C0099A252 /* AppDelegate.swift in Sources */,
+				5591CCCE2156ADA600AECD70 /* selectTagTableViewCell.swift in Sources */,
+				5548D8C7214284A500416200 /* cell1.swift in Sources */,
+				5548D8CA214284A500416200 /* cell2.swift in Sources */,
+				5548D8BD2142840400416200 /* RevealViewController.swift in Sources */,
+				5557725B215F9AD9000A0B3F /* firstVC.swift in Sources */,
+				554BD4922155A96600ACF4A9 /* DesignabelView.swift in Sources */,
+				554BD4952155A96600ACF4A9 /* customButton.swift in Sources */,
+				DE3A41C221B3F6F500C13DEB /* selectImageCell.swift in Sources */,
+				55E7D5EE217AF54D00F386C0 /* recentCell1.swift in Sources */,
+				5548D8BF2142849A00416200 /* menuVC.swift in Sources */,
+				55CB514E216FE154007D3936 /* recent.swift in Sources */,
+				DE3A41BE21B3F69C00C13DEB /* imageCell.swift in Sources */,
+				55E7D5F1217AFB8900F386C0 /* singleVC.swift in Sources */,
+				55CB5147216FDE7F007D3936 /* singlePostVC.swift in Sources */,
+				55B7B6AB2152922800C97FBA /* loginVC.swift in Sources */,
+				5558C2FC2142805C0099A252 /* ngo_hub.xcdatamodeld in Sources */,
+				554BD4932155A96600ACF4A9 /* DesignableTextView.swift in Sources */,
+				5557726B215FA52D000A0B3F /* thirdVC.swift in Sources */,
+				554BD4942155A96600ACF4A9 /* DesignableButton.swift in Sources */,
+				55CB514A216FDEE9007D3936 /* singlePostCell.swift in Sources */,
+				554BD49B2155B53000ACF4A9 /* splashVC.swift in Sources */,
+				55577269215FA511000A0B3F /* introVC.swift in Sources */,
+				5548D8BB2142834E00416200 /* SWRevealViewController.m in Sources */,
+				5548D8D121428DC600416200 /* headerCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5558C3032142805D0099A252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5558C30C2142805D0099A252 /* ngo_hubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5558C30E2142805D0099A252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5558C3172142805D0099A252 /* ngo_hubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5558C3092142805D0099A252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5558C2EF2142805B0099A252 /* ngo-hub */;
+			targetProxy = 5558C3082142805D0099A252 /* PBXContainerItemProxy */;
+		};
+		5558C3142142805D0099A252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5558C2EF2142805B0099A252 /* ngo-hub */;
+			targetProxy = 5558C3132142805D0099A252 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5558C2F72142805C0099A252 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5558C2F82142805C0099A252 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5558C2FF2142805D0099A252 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5558C3002142805D0099A252 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5558C3192142805D0099A252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5558C31A2142805D0099A252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5558C31C2142805D0099A252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AE093BEB79147B254EFD16E /* Pods-ngo-hub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDZWELLXPV;
+				INFOPLIST_FILE = "ngo-hub/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.infroid.ngo-hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ngo-hub/SideMenu/ngo-hub-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5558C31D2142805D0099A252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A023F9C84EDE0BB1F83F03A5 /* Pods-ngo-hub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDZWELLXPV;
+				INFOPLIST_FILE = "ngo-hub/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.infroid.ngo-hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ngo-hub/SideMenu/ngo-hub-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5558C31F2142805D0099A252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349670790B803E02D840165D /* Pods-ngo-hubTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDZWELLXPV;
+				INFOPLIST_FILE = "ngo-hubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.infroid.ngo-hubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ngo-hub.app/ngo-hub";
+			};
+			name = Debug;
+		};
+		5558C3202142805D0099A252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B02BD0501FBE3819BD719B /* Pods-ngo-hubTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDZWELLXPV;
+				INFOPLIST_FILE = "ngo-hubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.infroid.ngo-hubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ngo-hub.app/ngo-hub";
+			};
+			name = Release;
+		};
+		5558C3222142805D0099A252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6B7C3A2D9991C42CCC476F /* Pods-ngo-hubUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDZWELLXPV;
+				INFOPLIST_FILE = "ngo-hubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.infroid.ngo-hubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ngo-hub";
+			};
+			name = Debug;
+		};
+		5558C3232142805D0099A252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D301953C7C0C4E039B8418 /* Pods-ngo-hubUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GDZWELLXPV;
+				INFOPLIST_FILE = "ngo-hubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.infroid.ngo-hubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ngo-hub";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5558C2EB2142805B0099A252 /* Build configuration list for PBXProject "ngo-hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5558C3192142805D0099A252 /* Debug */,
+				5558C31A2142805D0099A252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5558C31B2142805D0099A252 /* Build configuration list for PBXNativeTarget "ngo-hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5558C31C2142805D0099A252 /* Debug */,
+				5558C31D2142805D0099A252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5558C31E2142805D0099A252 /* Build configuration list for PBXNativeTarget "ngo-hubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5558C31F2142805D0099A252 /* Debug */,
+				5558C3202142805D0099A252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5558C3212142805D0099A252 /* Build configuration list for PBXNativeTarget "ngo-hubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5558C3222142805D0099A252 /* Debug */,
+				5558C3232142805D0099A252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5558C2FA2142805C0099A252 /* ngo_hub.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5558C2FB2142805C0099A252 /* ngo_hub.xcdatamodel */,
+			);
+			currentVersion = 5558C2FB2142805C0099A252 /* ngo_hub.xcdatamodel */;
+			path = ngo_hub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5558C2E82142805B0099A252 /* Project object */;
+}
